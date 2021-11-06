@@ -17,5 +17,6 @@ pub fn run() {
     let d = arr2(&[[6, 5], [5, 2], [4, 1]]);
     println!("{:?}", c.dot(&d));
 
-    println!("{:?}", )
+    println!("{:?}", d * 12);
+    println!("{:?}", c * 12);
 }
