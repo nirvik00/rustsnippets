@@ -1,0 +1,9 @@
+/Users/nirviksaha/Projects/ns_rust/rustsnippets/geos/geos1/target/rls/debug/deps/geographiclib_rs-b8392fce3c38faf2.rmeta: /Users/nirviksaha/.cargo/registry/src/github.com-1ecc6299db9ec823/geographiclib-rs-0.2.0/src/lib.rs /Users/nirviksaha/.cargo/registry/src/github.com-1ecc6299db9ec823/geographiclib-rs-0.2.0/src/geodesic.rs /Users/nirviksaha/.cargo/registry/src/github.com-1ecc6299db9ec823/geographiclib-rs-0.2.0/src/geodesiccapability.rs /Users/nirviksaha/.cargo/registry/src/github.com-1ecc6299db9ec823/geographiclib-rs-0.2.0/src/geodesicline.rs /Users/nirviksaha/.cargo/registry/src/github.com-1ecc6299db9ec823/geographiclib-rs-0.2.0/src/geomath.rs
+
+/Users/nirviksaha/Projects/ns_rust/rustsnippets/geos/geos1/target/rls/debug/deps/geographiclib_rs-b8392fce3c38faf2.d: /Users/nirviksaha/.cargo/registry/src/github.com-1ecc6299db9ec823/geographiclib-rs-0.2.0/src/lib.rs /Users/nirviksaha/.cargo/registry/src/github.com-1ecc6299db9ec823/geographiclib-rs-0.2.0/src/geodesic.rs /Users/nirviksaha/.cargo/registry/src/github.com-1ecc6299db9ec823/geographiclib-rs-0.2.0/src/geodesiccapability.rs /Users/nirviksaha/.cargo/registry/src/github.com-1ecc6299db9ec823/geographiclib-rs-0.2.0/src/geodesicline.rs /Users/nirviksaha/.cargo/registry/src/github.com-1ecc6299db9ec823/geographiclib-rs-0.2.0/src/geomath.rs
+
+/Users/nirviksaha/.cargo/registry/src/github.com-1ecc6299db9ec823/geographiclib-rs-0.2.0/src/lib.rs:
+/Users/nirviksaha/.cargo/registry/src/github.com-1ecc6299db9ec823/geographiclib-rs-0.2.0/src/geodesic.rs:
+/Users/nirviksaha/.cargo/registry/src/github.com-1ecc6299db9ec823/geographiclib-rs-0.2.0/src/geodesiccapability.rs:
+/Users/nirviksaha/.cargo/registry/src/github.com-1ecc6299db9ec823/geographiclib-rs-0.2.0/src/geodesicline.rs:
+/Users/nirviksaha/.cargo/registry/src/github.com-1ecc6299db9ec823/geographiclib-rs-0.2.0/src/geomath.rs:

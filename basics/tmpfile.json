@@ -1,0 +1,712 @@
+[
+	{
+		"inputs": [
+			{
+				"id": 1,
+				"orientation": "S",
+				"opaque1": 73.5,
+				"opaque2": 0,
+				"window1": 31.5,
+				"window2": 0,
+				"overhang_fins": 1
+			},
+			{
+				"id": 2,
+				"orientation": "SE",
+				"opaque1": 0,
+				"opaque2": 0,
+				"window1": 0,
+				"window2": 0,
+				"overhang_fins": 1
+			},
+			{
+				"id": 3,
+				"orientation": "E",
+				"opaque1": 42,
+				"opaque2": 0,
+				"window1": 18,
+				"window2": 0,
+				"overhang_fins": 1
+			},
+			{
+				"id": 4,
+				"orientation": "NE",
+				"opaque1": 0,
+				"opaque2": 0,
+				"window1": 0,
+				"window2": 0,
+				"overhang_fins": 1
+			},
+			{
+				"id": 5,
+				"orientation": "N",
+				"opaque1": 73.5,
+				"opaque2": 0,
+				"window1": 31.5,
+				"window2": 0,
+				"overhang_fins": 1
+			},
+			{
+				"id": 6,
+				"orientation": "NW",
+				"opaque1": 0,
+				"opaque2": 0,
+				"window1": 0,
+				"window2": 0,
+				"overhang_fins": 1
+			},
+			{
+				"id": 7,
+				"orientation": "W",
+				"opaque1": 42,
+				"opaque2": 0,
+				"window1": 18,
+				"window2": 0,
+				"overhang_fins": 1
+			},
+			{
+				"id": 8,
+				"orientation": "SW",
+				"opaque1": 0,
+				"opaque2": 0,
+				"window1": 0,
+				"window2": 0,
+				"overhang_fins": 1
+			},
+			{
+				"id": 9,
+				"orientation": "roof_horizontal",
+				"opaque1": 112,
+				"opaque2": 0,
+				"window1": 0,
+				"window2": 0,
+				"overhang_fins": 1
+			},
+			{
+				"id": 10,
+				"orientation": "SE",
+				"opaque1": 0,
+				"opaque2": 0,
+				"window1": 0,
+				"window2": 0,
+				"overhang_fins": 1
+			}
+		],
+		"name": "building_envelope"
+	},
+	{
+		"inputs": [
+			{
+				"id": 1,
+				"type": "roof1",
+				"u_value": 0.25,
+				"absorption_coefficient": 0.85,
+				"emissivity": 0.85,
+				"solar_transmittance": 0
+			},
+			{
+				"id": 2,
+				"type": "roof2",
+				"u_value": 0,
+				"absorption_coefficient": 0,
+				"emissivity": 0,
+				"solar_transmittance": 0
+			},
+			{
+				"id": 3,
+				"type": "opaque1",
+				"u_value": 0.35,
+				"absorption_coefficient": 0.7,
+				"emissivity": 0.7,
+				"solar_transmittance": 0
+			},
+			{
+				"id": 4,
+				"type": "opaque2",
+				"u_value": 0,
+				"absorption_coefficient": 0,
+				"emissivity": 0,
+				"solar_transmittance": 0
+			},
+			{
+				"id": 5,
+				"type": "window1",
+				"u_value": 3.09,
+				"absorption_coefficient": 0,
+				"emissivity": 0.84,
+				"solar_transmittance": 0.7
+			},
+			{
+				"id": 6,
+				"type": "window2",
+				"u_value": 0,
+				"absorption_coefficient": 0,
+				"emissivity": 0,
+				"solar_transmittance": 0
+			}
+		],
+		"name": "building_materials"
+	},
+	{
+		"inputs": [
+			{
+				"zone_name": "zone-1",
+				"params": {
+					"space_name": "space_name",
+					"gross_floor_area": 335,
+					"occupancy": 20,
+					"metabolic_rate": 88,
+					"appliances": 10,
+					"lighting": 10,
+					"outdoor_air": 8.33,
+					"domestic_hot_water": 5
+				},
+				"schedule": [
+					{
+						"id": 1,
+						"hour": "0-1",
+						"occ_wd": 0.1,
+						"occ_we": 0.1,
+						"app_wd": 0.1,
+						"app_we": 0.1,
+						"light_wd": 0.1,
+						"light_we": 0.1
+					},
+					{
+						"id": 2,
+						"hour": "1-2",
+						"occ_wd": 0.1,
+						"occ_we": 0.1,
+						"app_wd": 0.1,
+						"app_we": 0.1,
+						"light_wd": 0.1,
+						"light_we": 0.1
+					},
+					{
+						"id": 3,
+						"hour": "2-3",
+						"occ_wd": 0.1,
+						"occ_we": 0.1,
+						"app_wd": 0.1,
+						"app_we": 0.1,
+						"light_wd": 0.1,
+						"light_we": 0.1
+					},
+					{
+						"id": 4,
+						"hour": "3-4",
+						"occ_wd": 0.1,
+						"occ_we": 0.1,
+						"app_wd": 0.1,
+						"app_we": 0.1,
+						"light_wd": 0.1,
+						"light_we": 0.1
+					},
+					{
+						"id": 5,
+						"hour": "4-5",
+						"occ_wd": 0.1,
+						"occ_we": 0.1,
+						"app_wd": 0.1,
+						"app_we": 0.1,
+						"light_wd": 0.1,
+						"light_we": 0.1
+					},
+					{
+						"id": 6,
+						"hour": "5-6",
+						"occ_wd": 0.1,
+						"occ_we": 0.1,
+						"app_wd": 0.1,
+						"app_we": 0.1,
+						"light_wd": 0.1,
+						"light_we": 0.1
+					},
+					{
+						"id": 7,
+						"hour": "6-7",
+						"occ_wd": 0.1,
+						"occ_we": 0.1,
+						"app_wd": 0.1,
+						"app_we": 0.1,
+						"light_wd": 0.1,
+						"light_we": 0.1
+					},
+					{
+						"id": 8,
+						"hour": "7-8",
+						"occ_wd": 0.1,
+						"occ_we": 0.1,
+						"app_wd": 0.1,
+						"app_we": 0.1,
+						"light_wd": 0.1,
+						"light_we": 0.1
+					},
+					{
+						"id": 9,
+						"hour": "8-9",
+						"occ_wd": 1,
+						"occ_we": 0.1,
+						"app_wd": 1,
+						"app_we": 0.1,
+						"light_wd": 1,
+						"light_we": 0.1
+					},
+					{
+						"id": 10,
+						"hour": "9-10",
+						"occ_wd": 1,
+						"occ_we": 0.1,
+						"app_wd": 1,
+						"app_we": 0.1,
+						"light_wd": 1,
+						"light_we": 0.1
+					},
+					{
+						"id": 11,
+						"hour": "10-11",
+						"occ_wd": 1,
+						"occ_we": 0.1,
+						"app_wd": 1,
+						"app_we": 0.1,
+						"light_wd": 1,
+						"light_we": 0.1
+					},
+					{
+						"id": 12,
+						"hour": "11-12",
+						"occ_wd": 1,
+						"occ_we": 0.1,
+						"app_wd": 1,
+						"app_we": 0.1,
+						"light_wd": 1,
+						"light_we": 0.1
+					},
+					{
+						"id": 13,
+						"hour": "12-13",
+						"occ_wd": 1,
+						"occ_we": 0.1,
+						"app_wd": 1,
+						"app_we": 0.1,
+						"light_wd": 1,
+						"light_we": 0.1
+					},
+					{
+						"id": 14,
+						"hour": "13-14",
+						"occ_wd": 1,
+						"occ_we": 0.1,
+						"app_wd": 1,
+						"app_we": 0.1,
+						"light_wd": 1,
+						"light_we": 0.1
+					},
+					{
+						"id": 15,
+						"hour": "14-15",
+						"occ_wd": 1,
+						"occ_we": 0.1,
+						"app_wd": 1,
+						"app_we": 0.1,
+						"light_wd": 1,
+						"light_we": 0.1
+					},
+					{
+						"id": 16,
+						"hour": "15-16",
+						"occ_wd": 1,
+						"occ_we": 0.1,
+						"app_wd": 1,
+						"app_we": 0.1,
+						"light_wd": 1,
+						"light_we": 0.1
+					},
+					{
+						"id": 17,
+						"hour": "16-17",
+						"occ_wd": 1,
+						"occ_we": 0.1,
+						"app_wd": 1,
+						"app_we": 0.1,
+						"light_wd": 1,
+						"light_we": 0.1
+					},
+					{
+						"id": 18,
+						"hour": "17-18",
+						"occ_wd": 1,
+						"occ_we": 0.1,
+						"app_wd": 1,
+						"app_we": 0.1,
+						"light_wd": 1,
+						"light_we": 0.1
+					},
+					{
+						"id": 19,
+						"hour": "18-19",
+						"occ_wd": 0.1,
+						"occ_we": 0.1,
+						"app_wd": 0.1,
+						"app_we": 0.1,
+						"light_wd": 0.1,
+						"light_we": 0.1
+					},
+					{
+						"id": 20,
+						"hour": "19-20",
+						"occ_wd": 0.1,
+						"occ_we": 0.1,
+						"app_wd": 0.1,
+						"app_we": 0.1,
+						"light_wd": 0.1,
+						"light_we": 0.1
+					},
+					{
+						"id": 21,
+						"hour": "20-21",
+						"occ_wd": 0.1,
+						"occ_we": 0.1,
+						"app_wd": 0.1,
+						"app_we": 0.1,
+						"light_wd": 0.1,
+						"light_we": 0.1
+					},
+					{
+						"id": 22,
+						"hour": "21-22",
+						"occ_wd": 0.1,
+						"occ_we": 0.1,
+						"app_wd": 0.1,
+						"app_we": 0.1,
+						"light_wd": 0.1,
+						"light_we": 0.1
+					},
+					{
+						"id": 23,
+						"hour": "22-23",
+						"occ_wd": 0.1,
+						"occ_we": 0.1,
+						"app_wd": 0.1,
+						"app_we": 0.1,
+						"light_wd": 0.1,
+						"light_we": 0.1
+					},
+					{
+						"id": 24,
+						"hour": "23-24",
+						"occ_wd": 0.1,
+						"occ_we": 0.1,
+						"app_wd": 0.1,
+						"app_we": 0.1,
+						"light_wd": 0.1,
+						"light_we": 0.1
+					}
+				]
+			}
+		],
+		"name": "zone_params_and_schedule-zone-1"
+	},
+	{
+		"inputs": [
+			{
+				"id": 1,
+				"hour": "0-1",
+				"day": 0,
+				"WD_Tset_heat": 16,
+				"WE_Tset_heat": 16,
+				"WD_Tset_cool": 29,
+				"WE_Tset_cool": 29
+			},
+			{
+				"id": 2,
+				"hour": "1-2",
+				"day": 0,
+				"WD_Tset_heat": 16,
+				"WE_Tset_heat": 16,
+				"WD_Tset_cool": 29,
+				"WE_Tset_cool": 29
+			},
+			{
+				"id": 3,
+				"hour": "2-3",
+				"day": 0,
+				"WD_Tset_heat": 16,
+				"WE_Tset_heat": 16,
+				"WD_Tset_cool": 29,
+				"WE_Tset_cool": 29
+			},
+			{
+				"id": 4,
+				"hour": "3-4",
+				"day": 0,
+				"WD_Tset_heat": 16,
+				"WE_Tset_heat": 16,
+				"WD_Tset_cool": 29,
+				"WE_Tset_cool": 29
+			},
+			{
+				"id": 5,
+				"hour": "4-5",
+				"day": 0,
+				"WD_Tset_heat": 16,
+				"WE_Tset_heat": 16,
+				"WD_Tset_cool": 29,
+				"WE_Tset_cool": 29
+			},
+			{
+				"id": 6,
+				"hour": "5-6",
+				"day": 0,
+				"WD_Tset_heat": 16,
+				"WE_Tset_heat": 16,
+				"WD_Tset_cool": 29,
+				"WE_Tset_cool": 29
+			},
+			{
+				"id": 7,
+				"hour": "6-7",
+				"day": 0,
+				"WD_Tset_heat": 16,
+				"WE_Tset_heat": 16,
+				"WD_Tset_cool": 29,
+				"WE_Tset_cool": 29
+			},
+			{
+				"id": 8,
+				"hour": "7-8",
+				"day": 0,
+				"WD_Tset_heat": 16,
+				"WE_Tset_heat": 16,
+				"WD_Tset_cool": 29,
+				"WE_Tset_cool": 29
+			},
+			{
+				"id": 9,
+				"hour": "8-9",
+				"day": 1,
+				"WD_Tset_heat": 21,
+				"WE_Tset_heat": 21,
+				"WD_Tset_cool": 24,
+				"WE_Tset_cool": 24
+			},
+			{
+				"id": 10,
+				"hour": "9-10",
+				"day": 1,
+				"WD_Tset_heat": 21,
+				"WE_Tset_heat": 21,
+				"WD_Tset_cool": 24,
+				"WE_Tset_cool": 24
+			},
+			{
+				"id": 11,
+				"hour": "10-11",
+				"day": 1,
+				"WD_Tset_heat": 21,
+				"WE_Tset_heat": 21,
+				"WD_Tset_cool": 24,
+				"WE_Tset_cool": 24
+			},
+			{
+				"id": 12,
+				"hour": "11-12",
+				"day": 1,
+				"WD_Tset_heat": 21,
+				"WE_Tset_heat": 21,
+				"WD_Tset_cool": 24,
+				"WE_Tset_cool": 24
+			},
+			{
+				"id": 13,
+				"hour": "12-13",
+				"day": 1,
+				"WD_Tset_heat": 21,
+				"WE_Tset_heat": 21,
+				"WD_Tset_cool": 24,
+				"WE_Tset_cool": 24
+			},
+			{
+				"id": 14,
+				"hour": "13-14",
+				"day": 1,
+				"WD_Tset_heat": 21,
+				"WE_Tset_heat": 21,
+				"WD_Tset_cool": 24,
+				"WE_Tset_cool": 24
+			},
+			{
+				"id": 15,
+				"hour": "14-15",
+				"day": 1,
+				"WD_Tset_heat": 21,
+				"WE_Tset_heat": 21,
+				"WD_Tset_cool": 24,
+				"WE_Tset_cool": 24
+			},
+			{
+				"id": 16,
+				"hour": "15-16",
+				"day": 1,
+				"WD_Tset_heat": 21,
+				"WE_Tset_heat": 21,
+				"WD_Tset_cool": 24,
+				"WE_Tset_cool": 24
+			},
+			{
+				"id": 17,
+				"hour": "16-17",
+				"day": 1,
+				"WD_Tset_heat": 21,
+				"WE_Tset_heat": 21,
+				"WD_Tset_cool": 24,
+				"WE_Tset_cool": 24
+			},
+			{
+				"id": 18,
+				"hour": "17-18",
+				"day": 1,
+				"WD_Tset_heat": 21,
+				"WE_Tset_heat": 21,
+				"WD_Tset_cool": 24,
+				"WE_Tset_cool": 24
+			},
+			{
+				"id": 19,
+				"hour": "18-19",
+				"day": 0,
+				"WD_Tset_heat": 16,
+				"WE_Tset_heat": 16,
+				"WD_Tset_cool": 29,
+				"WE_Tset_cool": 29
+			},
+			{
+				"id": 20,
+				"hour": "19-20",
+				"day": 0,
+				"WD_Tset_heat": 16,
+				"WE_Tset_heat": 16,
+				"WD_Tset_cool": 29,
+				"WE_Tset_cool": 29
+			},
+			{
+				"id": 21,
+				"hour": "20-21",
+				"day": 0,
+				"WD_Tset_heat": 16,
+				"WE_Tset_heat": 16,
+				"WD_Tset_cool": 29,
+				"WE_Tset_cool": 29
+			},
+			{
+				"id": 22,
+				"hour": "21-22",
+				"day": 0,
+				"WD_Tset_heat": 16,
+				"WE_Tset_heat": 16,
+				"WD_Tset_cool": 29,
+				"WE_Tset_cool": 29
+			},
+			{
+				"id": 23,
+				"hour": "22-23",
+				"day": 0,
+				"WD_Tset_heat": 16,
+				"WE_Tset_heat": 16,
+				"WD_Tset_cool": 29,
+				"WE_Tset_cool": 29
+			},
+			{
+				"id": 24,
+				"hour": "23-24",
+				"day": 0,
+				"WD_Tset_heat": 16,
+				"WE_Tset_heat": 16,
+				"WD_Tset_cool": 29,
+				"WE_Tset_cool": 29
+			}
+		],
+		"name": "building_set_point_schedule"
+	},
+	{
+		"inputs": {
+			"primaryEnergySourceHeating": "Electricity",
+			"primaryEnergySourceDomesticHotWater": "Electricity",
+			"primaryEnergySourceCooling": "Electricity",
+			"electricityEmission": 3.39,
+			"naturalGas": 1.09,
+			"fuel": 1.19
+		},
+		"name": "energy_sources"
+	},
+	{
+		"inputs": {
+			"htype": "24. Variable air volume / Water or Water&Air / Air / No",
+			"ventilationCoolingType": 75,
+			"relativeHumidity": 75,
+			"extraVentilation": 0,
+			"heatRecovery": false,
+			"airCirculation": false,
+			"airLeak": 1.1,
+			"fanPower": 1.8,
+			"fanControlFactor": 1,
+			"pumpControlCooling": 0,
+			"pumpControlHeating": 0,
+			"hotWaterDistributionSystem": "taps more than 3m from Heat Generation",
+			"hotWaterGenerationSystem": "Electric 0.75",
+			"buildingEnergyManagementSystem": 1
+		},
+		"name": "hvac_inputs"
+	},
+	{
+		"inputs": {
+			"heatingSystemCoefficientPerformance": 0.78,
+			"coolingSystemFullLoadCOP": 4.5,
+			"relativeLoadCOP100": 1,
+			"partialLoadCOP75": 0.9,
+			"partialLoadCOP50": 0.82,
+			"partialLoadCOP25": 0.5,
+			"weightingLoad100": 0.01,
+			"weightingLoad75": 0.42,
+			"weightingLoad50": 0.45,
+			"weightingLoad25": 0.12
+		},
+		"name": "heating_cooling_plant_parameters"
+	},
+	{
+		"inputs": {
+			"lightingDaylightingFactor": 1,
+			"lightingOccupancyFactor": 1,
+			"lightingIntensityFactor": 1,
+			"installedLightingPower": 0.68,
+			"parasiticLightingEnergy": true,
+			"annualParasiticLighting": 6
+		},
+		"name": "lighting_parameters"
+	},
+	{
+		"inputs": {
+			"pvSurfaceArea": 0,
+			"pvOrientation": "S",
+			"pvAngleTilt": 30,
+			"pvPowerCoeff": 0.15,
+			"pvPerfFactor": 0.7,
+			"solarCollectorSurfaceArea": 0,
+			"solarWaterHeatingModuleAngleTilt": 30,
+			"solarCollectorEfficiency": 0.5,
+			"windTurbineDiameter": 0.5,
+			"windTurbineEfficiency": 0.5
+		},
+		"name": "building_integrated_energy_systems_inputs"
+	},
+	{
+		"inputs": {
+			"projType": "School",
+			"location": "Atlanta, GA",
+			"ventilatedVolume": 100,
+			"height": 10,
+			"envelopHeatCapacity": 16500
+		},
+		"name": "building_general_inputs"
+	}
+]

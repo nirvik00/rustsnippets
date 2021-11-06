@@ -13,6 +13,8 @@ struct Person {
     fname: String, 
     lname: String
 }
+
+
 impl Person {
     fn new(f: &str, l: &str) -> Person{
         Person {
@@ -56,6 +58,5 @@ pub fn run(){
     println!("Person {}", p.full_name());
     
     println!("Person {:?}", p.to_tuple());
-
 
 }

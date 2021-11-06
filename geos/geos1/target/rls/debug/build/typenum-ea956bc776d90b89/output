@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/nirviksaha/Projects/ns_rust/rustsnippets/geos/geos1/target/rls/debug/build/typenum-ea956bc776d90b89/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/nirviksaha/Projects/ns_rust/rustsnippets/geos/geos1/target/rls/debug/build/typenum-ea956bc776d90b89/out/op.rs
